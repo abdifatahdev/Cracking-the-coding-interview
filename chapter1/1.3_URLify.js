@@ -2,10 +2,13 @@
 // has sufficient space at the end to hold the additional characters, and that you are given the "true"
 // length of the string.
 
+// O(N) Time | O(N) Space
 function URLify(str, len){
-    let s = "";
-    let endSpaces = str.length - len;
-    for(let i = 0; i < str.length; i++){
+    let s = ""; // Modified string
+    // str.length = total length of str including spaces @ end
+    // len = gives the actual length of the string
+    let endSpaces = str.length - len; // Calculate spaces at the end
+    for(let i = 0; i < str.length - endSpaces; i++){
         if(i < (str.length - endSpaces)){
             if(str[i] === " "){
                 s += "%20";
@@ -15,6 +18,18 @@ function URLify(str, len){
         }
     }
     return s;
+}
+
+// SOLUTION 2 - using array data structure
+// O(N) Time | O(N) Space
+function URLify(str){
+    const resArr = str.trim().split('');
+    for(let i in resArr){
+        if(resArr[i] === " "){
+            resArr[i] = "%20";
+        }
+    }
+    return resArr.join('');
 }
 
 // Test Cases:
