@@ -23,7 +23,7 @@ def checkPermutation(s1, s2):
     return True
 
 
-print(checkPermutation("mom", "oom"))  # True
+print(checkPermutation("mom", "omm"))  # True
 print(checkPermutation("love", "loove"))  # False => != length
 print(checkPermutation("hello", "olleh"))  # True
 print(checkPermutation("gkla", "lgak"))  # True
