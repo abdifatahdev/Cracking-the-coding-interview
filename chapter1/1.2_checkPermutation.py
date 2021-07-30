@@ -35,7 +35,10 @@ def checkPermutation(word1, word2):
 
 
 print(checkPermutation("mom", "omm"))  # True
+<<<<<<< HEAD
 print(checkPermutation("mom", "oom"))  # False
+=======
+>>>>>>> 42c1e1f4851b3817288a1db3539ddbfa764cb714
 print(checkPermutation("love", "loove"))  # False => != length
 print(checkPermutation("hello", "olleh"))  # True
 print(checkPermutation("gkla", "lgak"))  # True

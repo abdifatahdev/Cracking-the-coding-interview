@@ -13,7 +13,7 @@ Using UMPIRE Method:
 6. Evaluate - Analyze run time and space complexity
 '''
 
-# BRUTE FORCE(NAIVE) - solution
+# BRUTE FORCE(NAIVE) SOLUTION
 # O(N ^ 2) Time | O(1) Space
 '''
 def isUnique(s):
@@ -25,7 +25,7 @@ def isUnique(s):
 
 '''
 
-# MOST OPTIMAL - solution
+# MOST OPTIMAL SOLUTION
 # Sacrifice time for space(optimize for time)
 # O(N) time | O(N) space-- > where we gonna use additional space to return
 
