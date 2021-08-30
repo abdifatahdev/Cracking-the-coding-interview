@@ -1,4 +1,4 @@
-# SOLUTION 1 - Using Hash Map => O(N) Time || O(N) Space
+# SOLUTION 1: Using Hash Map => O(N) Time || O(N) Space
 '''
 def oneAway(s1, s2):
     seen = {}
@@ -18,7 +18,7 @@ def oneAway(s1, s2):
 
 '''
 
-# SOLUTION 2 - Using TWO POINTERS => O(N) Time | | O(1) Space
+# SOLUTION 2: Using TWO POINTERS => O(N) Time | | O(1) Space
 def oneAway(s1, s2):
     #Case1 = > if difference of the two strings is greater than 1
     if len(s1) - len(s2) > 1:
