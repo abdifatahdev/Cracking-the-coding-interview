@@ -1,4 +1,5 @@
 # SOLUTION 1: Using Hash Map => O(N) Time || O(N) Space
+
 '''
 def oneAway(s1, s2):
     seen = {}
@@ -45,7 +46,6 @@ def oneAway(s1, s2):
             return False
     return True
     
-
 
 print(oneAway("pale", "ple")) # True
 print(oneAway("paless", "ple")) # False
