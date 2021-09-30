@@ -21,7 +21,7 @@ def oneAway(s1, s2):
 
 # SOLUTION 2: Using TWO POINTERS => O(N) Time | | O(1) Space
 def oneAway(s1, s2):
-    #Case1 = > if difference of the two strings is greater than 1
+    #Case 1 = > if difference of the two strings is greater than 1
     if len(s1) - len(s2) > 1:
         return False
     if s1 == s2:
